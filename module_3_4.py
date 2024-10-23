@@ -1,7 +1,6 @@
 def single_root_words (root_word,  *other_words):
     same_words = []
     for i in other_words:
-        i.lower
         if len(root_word) <= len(i):
             if i.lower().count(root_word.lower()) > 0:
                 same_words.append(i)
